@@ -12,18 +12,18 @@ This repo accompanies the **multiview-stitcher** tutorial during [Virtual I2K 20
 
 - Use with a GUI: napari-stitcher
 	- 2D dataset (download [here](https://preibischlab.mdc-berlin.de/BigStitcher/Grid_2d.zip))
-        - prealign tiles using
+        - Prealign tiles using
             - napari built-in tools
             - napari-stitcher grid arrangement widget
 	- 3D dataset (download [here](https://preibischlab.mdc-berlin.de/BigStitcher/Grid_3d.zip))
-		- prealign tiles using [napari-threedee](https://github.com/napari-threedee/napari-threedee)
+		- Prealign tiles using [napari-threedee](https://github.com/napari-threedee/napari-threedee)
 	- Loading a tiled CZI file (download [here](https://github.com/multiview-stitcher/multiview-stitcher/raw/refs/heads/main/src/multiview_stitcher/test-datasets/mosaic_test.czi))
 
 - Code example (notebook [in this repo](./example_stitching_workflow_3D.ipynb)):
-    - loading data into memory and lazily (dataset [here](https://preibischlab.mdc-berlin.de/BigStitcher/Grid_3d.zip))
-    - registration: translation and affine
-    - fusion: linear blending and max intensity projection
-    - visualizing results
+    - Loading data into memory and lazily (dataset [here](https://preibischlab.mdc-berlin.de/BigStitcher/Grid_3d.zip))
+    - Registration: translation and affine
+    - Fusion: linear blending and max intensity projection
+    - Visualizing results
 
 ## Installation
 
